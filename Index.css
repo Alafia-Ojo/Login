@@ -1,0 +1,148 @@
+body {
+  background: ;
+}
+
+input {
+  outline: none;
+  padding: 5px;
+  border: 2px solid #173459;
+  border-radius: 10px;
+  background: #173459;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:hover {
+  background-color: grey;
+}
+
+select {
+  outline: none;
+  border: none;
+  background: #173459;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+input[type="checkbox"]:checked + label, input[type="radio"]:checked + label {
+  background: grey;
+  color: white;
+}
+
+input[type="checkbox"]:checked + label > span, input[type="radio"]:checked + label > span {
+  background: #0076ff;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  display: none;
+  /* hide the default check boxes and radios */
+}
+
+label > span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #0076ff;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+label {
+  display: inline-block;
+  width: 80%;
+  padding: 15px;
+  border: 1px solid #0076ff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
+.bio {
+outline: none;
+  padding: 10px;
+  border: 2px solid #0076ff;
+  border-radius: 10px;
+  background: #445559;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  background: rgb(20,23,24);
+  border-radius:30px;
+  padding: 2px;
+  color: white;
+  
+  padding: 15px 30px;
+  margin: 30px;
+  font-size: 30px;
+  
+}
+
+
+
+body {
+  background-color: gey;
+}
+
+ button{
+  border: none;
+ font-size: 10px;
+  text-align: center;
+  font-family: Monospace;
+  padding: 15px 30px;
+  margin: 30px;
+  background-color: #161657;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+}
+
+.btn {
+  text-align: center;
+}
+
+#message {
+  display:;
+  background: #f1f1f1;
+  color: #000;
+  margin: 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: ;
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+  h3, p, b{
+  font-size: 8px;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content:;
+}
+
+::

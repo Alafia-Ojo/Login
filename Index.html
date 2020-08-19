@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="index.css">
+    
+  </head>
+  
+  <body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+      
+     
+
+      <div class="h" id="y">
+      <h1>Registers</h1>
+      </div>
+      
+      
+      <div class="fieldset-1">
+      <fieldset>
+         <legend><span class="number">1:</span>Your profile</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="username" placeholder="Type here.....">
+      <br>
+      <br>
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="e-mail">
+      <br>
+      <br>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="user-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required">
+      
+      <div id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div>
+    
+    <script src="index.js"></script>
+  </body>
+
+      <br>
+      <br>
+      
+     <label for="birthday">D.O.B:</label>
+     <input type="date" id="birthday"  name="birthday">
+     <br>
+     <br>
+    </fieldset>
+    
+    <br>
+    <br>
+    
+    <div class="bio">
+    
+      <fieldset>
+
+         <legend><span class="number">2</span>Your basic info</legend
+      <label for="bio">biography:</label>
+      <textarea id"bio" name=user_bio></textarea>
+      </fieldset>
+      
+      </div>
+      </div>
+      
+      <label for="job">job role:</label>
+      <select id= "job" name="user_job">
+         
+         <option value="frontend developer">frontend developer</option>
+         
+         <option value="backend developer">backend developer</option>
+         
+         
+         <option value="graphics designer">graphics designer</option>
+         
+         
+         <option value="networker">networker</option>
+          
+          
+    
+      </select>
+      <br>
+      <br>
+      <br>
+      
+        <input type="file" id="fileToUpload" name="fileToUpload">
+  <input type="submit" value ="Upload Image" name ="submit">
+      
+      <div class="btn">
+      <button colspan="2" id="button" value="login" type="submit">Sign up</button>
+     
+    </form>
+    </div>
+    
+      
+
+</html>
