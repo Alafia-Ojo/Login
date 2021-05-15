@@ -58,12 +58,12 @@ myInput.onkeyup = function() {
 
 
 /*invalids.forEach((invalid) => console.log(invalid));*/
-let btn = document.querySelector('h1');
-btn.innerText = 'SIGNUP' ;
-btn.style.color = 'black';
+// let btn = document.querySelector('h1');
+// btn.innerText = 'SIGNUP' ;
+// btn.style.color = 'black';
 
-  btn.addEventListener('click' , (e) => {
-    btn.style.background = 'green';
-    console.log(document.links);
-    document.querySelector('body').style.background = '#ccc'
-  });
+ // btn.addEventListener('click' , (e) => {
+  //  btn.style.background = 'green';
+  //  console.log(document.links);
+  //  document.querySelector('body').style.background = '#ccc'
+ // });

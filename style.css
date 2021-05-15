@@ -2,17 +2,34 @@ body {
   background: ;
 }
 
+
+.rr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 input {
   outline: none;
-  padding: 5px;
+  height: 3em;
+  width: 100%;
   border: 2px solid #173459;
   border-radius: 10px;
-  background: #173459;
-  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input::placeholder {
-  color: white;
+  color: black;
 }
 
 input:hover {
@@ -42,67 +59,113 @@ input[type="checkbox"], input[type="radio"] {
   /* hide the default check boxes and radios */
 }
 
+
+
 label > span {
   display: inline-block;
   width: 15px;
-  height: 15px;
+  height: 10px;
   border: 3px solid #0076ff;
   border-radius: 50%;
   margin-right: 30px;
 }
 label {
-  display: inline-block;
-  width: 80%;
-  padding: 15px;
-  border: 1px solid #0076ff;
-  margin-bottom: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 20%;
+  text-align: center;
+  height: 10px;
+  padding: 10px;
+  margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 
+legend {
+  font-weight: bold;
+  margin: 5px 0;
+  margin-bottom: 7mm;
+}
+legend > span {
+  margin: 4px;
+}
+
+
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #034873;
+  width:  580px;
+}
+
+.w {
+  width: 88%;
+}
+
 .bio {
 outline: none;
+margin-bottom: 20px;
   padding: 10px;
   border: 2px solid #0076ff;
   border-radius: 10px;
-  background: #445559;
+  background: #032859;
   color: white;
+}
+
+#biob {
+  color: #fff;
+}
+
+#im {
+  margin-top: 10px;
+}
+
+.h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   text-align: center;
-  background: rgb(20,23,24);
+  width: 20rem;
+  background: #032859;
   border-radius:30px;
   padding: 2px;
-  color: white;
-  
-  padding: 15px 30px;
-  margin: 30px;
+  color: white; 
+  padding: 10px 20px;
+  margin: 13px;
   font-size: 30px;
   
 }
 
 
 
-body {
-  background-color: gey;
-}
-
  button{
   border: none;
- font-size: 10px;
+ font-size: 25px;
   text-align: center;
   font-family: Monospace;
   padding: 15px 30px;
   margin: 30px;
-  background-color: #161657;
+  background-color: #032859;
   border-radius: 50px;
   color: white;
   display: inline-block;
+  cursor: pointer;
+}
+
+button:hover {
+  color: brown;
+  background-color: lemonchiffon;
 }
 
 .btn {
   text-align: center;
+  
 }
 
 #message {
@@ -115,9 +178,9 @@ body {
 }
 
 
-#message p {
+#message p,h3,b{
   padding: 10px 35px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
@@ -128,15 +191,15 @@ body {
 .valid:before {
   position: relative;
   left: -35px;
-  content: ;
 }
 
 /* Add a red text color and an "x" icon when the requirements are wrong */
 .invalid {
   color: red;
 }
-  h3, p, b{
-  font-size: 8px;
+ p, b{
+  font-size: 16px;
+  line-height: 9px;
 }
 
 .invalid:before {
@@ -145,4 +208,14 @@ body {
   content:;
 }
 
-::
+textarea {
+  height: 110px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 60%;
+
+}
+

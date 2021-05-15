@@ -4,22 +4,24 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   
     <title>SIGN UP</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     
   </head>
   
   <body>
     <form action="index.php" method="post" enctype="multipart/form-data">
+      <div class="rr">
+     <div class="tt">
+        
       
-     
-
       <div class="h" id="y">
-      <h1>Registers</h1>
+      <h1>SIGN UP</h1>
       </div>
       
       
       <div class="fieldset-1">
       <fieldset>
+        <div class="w">
          <legend><span class="number">1:</span>Your profile</legend>
       <label for="name">Name:</label>
       <input type="text" id="name" name="username" placeholder="Type here.....">
@@ -35,14 +37,12 @@
       
       <div id="message">
   <h3>Password must contain the following:</h3>
-  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
-  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
-  <p id="number" class="invalid">A <b>number</b></p>
-  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+  <p id="letter" class="invalid"><b>lowercase</b></p>
+  <p id="capital" class="invalid"><b>uppercase</b></p>
+  <p id="number" class="invalid"><b>number</b></p>
+  <p id="length" class="invalid"><b>minimum 8 characters</b></p>
 </div>
-    
-    <script src="index.js"></script>
-  </body>
+  
 
       <br>
       <br>
@@ -51,6 +51,7 @@
      <input type="date" id="birthday"  name="birthday">
      <br>
      <br>
+    </div>
     </fieldset>
     
     <br>
@@ -60,9 +61,9 @@
     
       <fieldset>
 
-         <legend><span class="number">2</span>Your basic info</legend
-      <label for="bio">biography:</label>
-      <textarea id"bio" name=user_bio></textarea>
+         <legend><span class="number">2</span>Your basic info</legend>
+      <label id="biob" for="bio">biography:</label>
+      <textarea id="bio" name=user_bio></textarea>
       </fieldset>
       
       </div>
@@ -89,14 +90,22 @@
       <br>
       
         <input type="file" id="fileToUpload" name="fileToUpload">
-  <input type="submit" value ="Upload Image" name ="submit">
+  <!-- <input id="im" type="submit" value ="Upload Image" name ="submit"> -->
       
       <div class="btn">
-      <button colspan="2" id="button" value="login" type="submit">Sign up</button>
+      <button colspan="1" id="button" value="login" type="submit">Sign up</button>
      
     </form>
     </div>
-    
+ 
+
+  </div>
+  
+    </div>
+
+    <script src="index.js"></script>
+
+  </body>
       
 
 </html>
